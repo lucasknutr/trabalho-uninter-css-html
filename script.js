@@ -1,4 +1,5 @@
 const formationList = document.querySelector(".formation-list");
+const portfolioList = document.querySelector(".portfolio-list");
 
 const formacao = [
   "👨‍💻 Desenvolvedor Web Full Stack",

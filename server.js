@@ -27,7 +27,7 @@ app.post('/submit', (req, res) => {
         service: 'Gmail',
         auth: {
             user: 'lucasclaudino@alu.ufc.br', 
-            pass: 'lugaro26'
+            pass: 'hash'
         }
     });
 

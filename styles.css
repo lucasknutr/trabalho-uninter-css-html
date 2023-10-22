@@ -90,7 +90,7 @@
             cursor: pointer;
         }
 
-        .formation-list {
+        .formation-list, .portfolio-list {
             display: flex;
             flex-direction: column;
             gap: 10px;
