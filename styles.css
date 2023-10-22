@@ -1,0 +1,39 @@
+        /* Estilos CSS para a barra de navegação */
+        *, body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        ul.navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        li.nav-item a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li {
+            text-decoration: none !important;
+        }
+
+        li.nav-item a:hover {
+            background-color: #555;
+        }
+
+        /* Estilos CSS para o conteúdo */
+        div.content {
+            padding: 20px;
+            margin: auto;
+            text-align: center;
+            width: 50%
+        }
