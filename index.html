@@ -50,10 +50,8 @@
 
         <div id="item2">
             <h1>Formação</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ad facere nihil aliquid esse alias, voluptatibus repudiandae magnam quaerat quasi numquam deleniti, exercitationem hic, voluptas possimus velit. Repudiandae, pariatur enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum adipisci mollitia ea vel aspernatur, eligendi vero illo reprehenderit. Pariatur, suscipit inventore! A fuga error magnam. Iste ea impedit fugit pariatur.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ad facere nihil aliquid esse alias, voluptatibus repudiandae magnam quaerat quasi numquam deleniti, exercitationem hic, voluptas possimus velit. Repudiandae, pariatur enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum adipisci mollitia ea vel aspernatur, eligendi vero illo reprehenderit. Pariatur, suscipit inventore! A fuga error magnam. Iste ea impedit fugit pariatur.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ad facere nihil aliquid esse alias, voluptatibus repudiandae magnam quaerat quasi numquam deleniti, exercitationem hic, voluptas possimus velit. Repudiandae, pariatur enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum adipisci mollitia ea vel aspernatur, eligendi vero illo reprehenderit. Pariatur, suscipit inventore! A fuga error magnam. Iste ea impedit fugit pariatur.
-            </p>
+            <ul class="formation-list">
+            </ul>
         </div>
 
         <div id="item3">
@@ -66,8 +64,19 @@
 
         <div id="item4">
             <h1>Contato</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ad facere nihil aliquid esse alias, voluptatibus repudiandae magnam quaerat quasi numquam deleniti, exercitationem hic, voluptas possimus velit. Repudiandae, pariatur enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum adipisci mollitia ea vel aspernatur, eligendi vero illo reprehenderit. Pariatur, suscipit inventore! A fuga error magnam. Iste ea impedit fugit pariatur.</p>
+                <form action="/submit" method="post" class="form">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                    <label for="assunto">Assunto</label>
+                    <input type="text" name="assunto" id="assunto">
+                    <button type="submit">Enviar</button>
+                </form>
+
         </div>
     </div>
+    <script src="./script.js"></script>
+    <script src="./server.js"></script>
 </body>
 </html>
