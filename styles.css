@@ -4,14 +4,22 @@
             padding: 0;
             box-sizing: border-box;
         }
+
+        body {
+            background: rgb(36,0,24);
+            background: linear-gradient(90deg, rgba(36,0,24,0.9962185557816877) 0%, rgba(141,1,78,1) 97%);
+        }
         
         ul.navbar {
             display: flex;
             justify-content: center;
             align-items: center;
+            list-style: none;
             gap: 20px;
-            background-color: #333;
+            background-color: rgba(0,0,0,.6);
             overflow: hidden;
+            position: fixed;
+            width: 100svw;
         }
 
         li.nav-item a {
@@ -34,6 +42,23 @@
         div.content {
             padding: 20px;
             margin: auto;
+            width: 40%;
+            background: #F6F6F6;
+            padding: 30px 50px;
+        }
+
+        .image {
             text-align: center;
-            width: 50%
+        }
+        img {
+            border-radius: 20%;
+            border-width: 1px;
+            border-style: solid;
+            margin: 25px 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #E60965;
+            margin: 20px 0;
         }
